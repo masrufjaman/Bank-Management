@@ -64,14 +64,17 @@ int main()
 {
     int ch, x;
     bank obj;
+
+    cout << "\n\n\t\tBank Management System" << endl;
+
     do
     {
-        cout << "1. Open Account" << endl;
+        cout << "\n\n1. Open Account" << endl;
         cout << "2. Deposit Money" << endl;
         cout << "3. Withdraw Money" << endl;
         cout << "4. Display Account" << endl;
         cout << "5. Exit" << endl;
-        cout << "Select the option from above" << endl;
+        cout << "Select the option from above";
         cin >> ch;
 
         switch (ch)
